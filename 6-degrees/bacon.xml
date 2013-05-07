@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key id="name" for="node" attr.name="name" attr.type="string"></key>
+    <key id="type" for="node" attr.name="type" attr.type="string"></key>
+    <graph id="G" edgedefault="directed">
+        <node id="0">
+            <data key="name">Kevin Bacon</data>
+            <data key="type">Actor</data>
+        </node>
+        <node id="1">
+            <data key="name">Footloose</data>
+            <data key="type">Movie</data>
+        </node>
+        <node id="2">
+            <data key="name">John Lithgow</data>
+            <data key="type">Actor</data>
+        </node>
+        <node id="3">
+            <data key="name">Shrek</data>
+            <data key="type">Movie</data>
+        </node>
+        <node id="4">
+            <data key="name">Mike Myers</data>
+            <data key="type">Actor</data>
+        </node>
+        <node id="5">
+            <data key="name">Cameron Diaz</data>
+            <data key="type">Actor</data>
+        </node>
+        <node id="6">
+            <data key="name">Charlie's Angels</data>
+            <data key="type">Movie</data>
+        </node>
+        <node id="7">
+            <data key="name">Bill Murray</data>
+            <data key="type">Actor</data>
+        </node>
+        <node id="8">
+            <data key="name">Wild Things</data>
+            <data key="type">Movie</data>
+        </node>
+        <node id="9">
+            <data key="name">Neve Campbell</data>
+            <data key="type">Actor</data>
+        </node>
+        <node id="10">
+            <data key="name">54</data>
+            <data key="type">Movie</data>
+        </node>
+        <edge id="11" source="1" target="0" label="featured"></edge>
+        <edge id="12" source="1" target="2" label="featured"></edge>
+        <edge id="13" source="3" target="2" label="featured"></edge>
+        <edge id="14" source="3" target="4" label="featured"></edge>
+        <edge id="15" source="3" target="5" label="featured"></edge>
+        <edge id="16" source="6" target="5" label="featured"></edge>
+        <edge id="17" source="6" target="7" label="featured"></edge>
+        <edge id="18" source="8" target="0" label="featured"></edge>
+        <edge id="19" source="8" target="7" label="featured"></edge>
+        <edge id="20" source="8" target="9" label="featured"></edge>
+        <edge id="21" source="10" target="4" label="featured"></edge>
+        <edge id="22" source="10" target="9" label="featured"></edge>
+    </graph>
+</graphml>
